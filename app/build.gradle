@@ -98,7 +98,10 @@ dependencies {
     implementation "io.noties.markwon:core:4.4.0"
 
     // Color Picker Dialog
-    implementation "com.github.skydoves:colorpickerview:2.1.7"
+    implementation "com.github.skydoves:colorpickerview:2.2.4"
+
+    //Swipe Refresh Layout
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:$swipe_refresh_version")
 }
 
 kapt {
