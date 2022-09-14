@@ -92,7 +92,7 @@ object AppModule {
     @Singleton
     fun providesNotesDatabase(
         @ApplicationContext context: Context
-    ): RoomDatabase =
+    ): NotesDatabase =
         Room.databaseBuilder(context, NotesDatabase::class.java, NOTES_DATABASE_NAME).build()
 
     @Provides
